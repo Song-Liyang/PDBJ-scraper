@@ -4,8 +4,8 @@ import re
 import os
 import pandas as pd
 
-DATADIR = "D://pdbj_bot//20200331//xml"     # dir that stores fetched xml file, see readme
-SAVEFILE = "D://pdbj_bot//20200331//summary.csv"    # output csv table
+DATADIR = "D://pdbj_bot//test//xml"     # dir that stores fetched xml file, see readme
+SAVEFILE = "D://pdbj_bot//test//summary.csv"    # output csv table
 MIN_SCORE = 100    # entries has score under this will be omitted
 MAX_ENTRY = 30      # save at most numbers of entries from each file
 

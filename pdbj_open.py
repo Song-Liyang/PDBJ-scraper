@@ -2,7 +2,7 @@ from selenium import webdriver
 import os
 
 
-FILEDIR = "D://pdbj_bot//20200331"
+FILEDIR = "D://pdbj_bot//test"
 INPUT = "StrucNavi_PDBj_link.txt"
 os.makedirs(f'{FILEDIR}//xml', exist_ok=True)
 
